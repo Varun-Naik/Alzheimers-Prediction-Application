@@ -5,7 +5,7 @@ patient is Demented or Non-demented.
 Using the data from the user to predict if the patient has Alzheimer's or not
 
 Inputs:
-Subject ID,MRI ID,Visit,MR Delay,M/F,Hand,Age,EDUC,SES,MMSE,CDR,eTIV,nWBV,ASF
+Subject ID, MRI ID, Visit, MR Delay, M/F, Hand, Age, EDUC, SES, MMSE, CDR, eTIV, nWBV, ASF
 
 Output:
 Group
