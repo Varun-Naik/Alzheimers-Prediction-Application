@@ -7,6 +7,7 @@ Using the data from the user to predict if the patient has Alzheimer's or not
 Inputs:
 _Subject ID,MRI ID,Visit,MR Delay,M/F,Hand,Age,EDUC,SES,MMSE,CDR,eTIV,nWBV,ASF_
 
+
 Output:
 _Group_
 
