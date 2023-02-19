@@ -15,3 +15,8 @@ _Group_
 2. Genearate Machine Learning model for the patient data
  2. Create an API using fastapi and test it on http://127.0.0.1:8000/
 3. Deploy the API on Docker
+
+
+---
+## References
+1. https://www.geeksforgeeks.org/deploying-ml-models-as-api-using-fastapi/
