@@ -1,0 +1,16 @@
+# Test inputs to be used for the swagger UI on the local host
+# Use:
+
+{
+  "Visit": 2,
+  "MR_Delay": 182,
+  "M_F": 0,
+  "Age": 66,
+  "EDUC": 13.0,
+  "SES": 2.0,
+  "MMSE": 30.0,
+  "CDR": 0.0,
+  "eTIV": 1506,
+  "nWBV": 0.740,
+  "ASF": 1.165
+}
