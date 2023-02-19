@@ -20,3 +20,4 @@ _Group_
 ---
 ## References
 1. https://www.geeksforgeeks.org/deploying-ml-models-as-api-using-fastapi/
+2. https://github.com/krishnaik06/FastAPI
