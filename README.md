@@ -21,6 +21,10 @@ _Group_
 the OpenAPI for interactive API.
  4. Deploy the API on Docker by creating the Dockerfile
 5. Create Procfile and Deploy the app on Heroku web server
+6. Use this [ML model API](https://alzheimer-api.herokuapp.com/predict) link to send a POST request with 
+the inputs in the format specified in _inputs.txt_ as shown below.
+
+![img.png](img.png)
 
 
 ---
