@@ -19,10 +19,10 @@ _Group_
  2. Generate Machine Learning model for the patient data and create pickle file
  3. Create an API using fastapi and test it on http://127.0.0.1:8000/predict or http://127.0.0.1:8000/docs to use
 the OpenAPI for interactive API.
- 4. Deploy the API on Docker by creating the Dockerfile
-5. Create Procfile and Deploy the app on Heroku web server
+ 4. Create Procfile and Deploy the app on Heroku web server
 6. Use this [ML model API](https://alzheimer-api.herokuapp.com/predict) link to send a POST request with 
 the inputs in the format specified in _inputs.txt_ as shown below.
+7. If prediction = 0 then patient is Demented and if prediction = 1, patient is Nondemented
 
 ![img.png](img.png)
 
