@@ -1,6 +1,7 @@
 # Test inputs to be used for the swagger UI on the local host
 # Use:
 
+# prediction = 1, Nondemented
 {
   "Visit": 2,
   "MR_Delay": 182,
@@ -15,7 +16,7 @@
   "ASF": 1.165
 }
 
-
+prediction = 1 , nondemented
 {
   "Visit": 4,
   "MR_Delay": 2288,

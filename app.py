@@ -51,9 +51,9 @@ def predict_disease(data: patientData):
 
     # If prediction = 0 then patient is Demented and if prediction = 1, patient is Nondemented
     if prediction[0] > 0.5:
-        prediction = "Nondemented"
+        prediction = "Nondemented!"
     else:
-        prediction = "Demented"
+        prediction = "Demented!"
     return {
         'prediction': prediction
     }
