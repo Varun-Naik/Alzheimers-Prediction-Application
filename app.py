@@ -49,9 +49,8 @@ def predict_disease(data: patientData):
     # the model takes the inputs passed through the api
     prediction: object = classifier.predict([[visit, mr_delay, m_f, age, educ, ses, mmse, cdr, etiv, nwbv, asf]])
 
-    # If prediction = 1 indicates that the patient is Demented and if it is 2 it indicates that the patient
-    # is Nondemented
-    if prediction[0] > 1:
+    # If prediction = 0 then patient is Demented and if prediction = 1, patient is Nondemented
+    if prediction[0] > 0.5:
         prediction = "Nondemented"
     else:
         prediction = "Demented"
