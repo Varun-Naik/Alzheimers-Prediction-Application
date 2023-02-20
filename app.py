@@ -65,5 +65,5 @@ if __name__ == '__main__':
     uvicorn.run(app, host='127.0.0.1', port=8000)
 
 # To run the API, first change the directory to the current project then use the command,
-# uvicorn main:app --reload
+# uvicorn app:app --reload
 # Then use swagger through http://127.0.0.1:8000/docs
