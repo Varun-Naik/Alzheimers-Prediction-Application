@@ -10,7 +10,7 @@ from patient_data import patientData
 
 # 2. Declaring our FastAPI instance/ Create the app object
 app = FastAPI()
-pickle_in = open("trained_model-0.1.0.pkl", "rb")
+pickle_in = open("trained_model-2.0.0.pkl", "rb")
 classifier = pickle.load(pickle_in)
 
 
