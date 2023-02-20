@@ -16,10 +16,11 @@ _Group_
 
  Steps followed:
  1. Generate a new environment and install necessary libraries
-2. Genearate Machine Learning model for the patient data
- 2. Create an API using fastapi and test it on http://127.0.0.1:8000/predict or http://127.0.0.1:8000/docs to use
+ 2. Generate Machine Learning model for the patient data and create pickle file
+ 3. Create an API using fastapi and test it on http://127.0.0.1:8000/predict or http://127.0.0.1:8000/docs to use
 the OpenAPI for interactive API.
-3. Deploy the API on Docker
+ 4. Deploy the API on Docker by creating the Dockerfile
+5. Create Procfile and Deploy the app on Heroku web server
 
 
 ---
