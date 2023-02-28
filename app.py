@@ -15,7 +15,7 @@ pickle_in = open("trained_model-2.0.0.pkl", "rb")
 classifier = pickle.load(pickle_in)
 
 # CORS headers
-origins = ["http://localhost", "http://localhost:8080", "https://myapp.herokuapp.com", ]
+origins = ["http://localhost", "http://localhost:8080", "https://myapp.herokuapp.com", "http://localhost:5000"]
 
 app.add_middleware(
     CORSMiddleware,
