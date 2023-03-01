@@ -19,6 +19,7 @@ origins = ["http://localhost",
            "http://localhost:8080",
            "https://myapp.herokuapp.com",
            "http://www.e-hospital.ca/alzheimersPrediction",
+           "http://www.e-hospital.ca",
            "http://localhost:5000"]
 
 app.add_middleware(
