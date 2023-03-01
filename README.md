@@ -27,6 +27,11 @@ the inputs in the format specified in _inputs.txt_ as shown below.
 
 ![img.png](img.png)
 
+### Prolems faced
+1) Needed to add the CORS headers to the api to allow access to the html page. This resulted in a 400 bad request error.
+In order to fix this _http://localhost:5000_ was added to the whitelist.
+
+
 
 ---
 ## References
