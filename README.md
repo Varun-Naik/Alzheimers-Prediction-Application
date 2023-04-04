@@ -25,8 +25,7 @@ the OpenAPI for interactive API.
 the inputs in the format specified in _inputs.txt_ as shown below.
 7. If prediction = 0 then patient is Demented and if prediction = 1, patient is Nondemented
 
-![img.png](img.png)
-
+![img_1.png](img_1.png)
 ### Prolems faced
 1) Needed to add the CORS headers to the api to allow access to the html page. This resulted in a 400 bad request error.
 In order to fix this _http://localhost:5000_ was added to the whitelist.
