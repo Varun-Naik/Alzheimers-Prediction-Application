@@ -1,3 +1,4 @@
 .idea
 .ipynb_checkpoints
 img.png
+__pycache__
