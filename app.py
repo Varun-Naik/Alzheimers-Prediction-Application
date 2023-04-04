@@ -64,15 +64,26 @@ def predict_disease(data: patientData):
 
     # print(random_forest_model.predict([[inputs...]]))
     # the model takes the inputs passed through the api
-    prediction: object = classifier.predict([[visit, mr_delay, m_f, age, educ, ses, mmse, cdr, etiv, nwbv, asf]])
-
+    nondemented = 0
+    demented = 0
+    for i in range(50):
+        prediction: object = classifier.predict([[visit, mr_delay, m_f, age, educ, ses, mmse, cdr, etiv, nwbv, asf]])
+        if prediction[0] > 0.5:
+            nondemented = nondemented + 1
+        else:
+            demented = demented + 1
+    print(nondemented)
+    print(demented)
     # If prediction = 0 then patient is Demented and if prediction = 1, patient is Nondemented
-    if prediction[0] > 0.5:
-        prediction = "Nondemented!"
+    if nondemented > demented:
+        predictions = "Nondemented!"
+        percentage = nondemented / 50 * 100
     else:
-        prediction = "Demented!"
+        predictions = "Demented!"
+        percentage = demented / 50 * 100
     return {
-        'prediction': prediction
+        'prediction': predictions,
+        'percentage': str(percentage)
     }
 
 
