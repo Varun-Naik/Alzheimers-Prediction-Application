@@ -77,7 +77,7 @@ def predict_disease(data: patientData):
     # If prediction = 0 then patient is Demented and if prediction = 1, patient is Nondemented
     if nondemented > demented:
         predictions = "Nondemented!"
-        percentage = nondemented / 50 * 100
+        percentage = demented / 50 * 100
     else:
         predictions = "Demented!"
         percentage = demented / 50 * 100
