@@ -30,3 +30,19 @@ prediction = 1 , nondemented
   "nWBV": 0.774,
   "ASF": 1.178
 }
+
+0, demented
+
+{
+  "Visit": 1,
+  "MR_Delay": 1212,
+  "M_F": 1,
+  "Age": 79,
+  "EDUC": 16.0,
+  "SES": 1.0,
+  "MMSE": 29.0,
+  "CDR": 0.5,
+  "eTIV": 1899,
+  "nWBV": 0.7,
+  "ASF": 0.924
+}
